@@ -10,15 +10,14 @@ html {
 }
 
 .card {
-   margin: 0.4%;
-   /* background:linen;     */
+    margin: 0.4%;
 }
 
-.card:hover{
-    /* background:rgb(230, 178, 127);   */
-   background:linen;      
+.card:hover {
+    background: linen;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
 }
-
 
 .cardHeader {
     font-size: 16px;
